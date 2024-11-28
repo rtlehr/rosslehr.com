@@ -1,0 +1,23 @@
+{"items": [
+  {
+    "id": 1,
+    "title": "Getting Started with Angular",
+    "content": "Angular is a platform and framework for building single-page client applications using HTML and TypeScript. In this article, we'll explore the basics of Angular and how to get started with your first project.",
+    "date": "2024-01-15",
+    "image": "https://images.unsplash.com/photo-1593720219276-0b1eacd0aef4?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 2,
+    "title": "Understanding TypeScript",
+    "content": "TypeScript is a strongly typed programming language that builds on JavaScript. Learn how TypeScript can improve your development workflow and catch errors early in development.",
+    "date": "2024-01-10",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    "id": 3,
+    "title": "Responsive Design Principles",
+    "content": "Creating responsive web applications is crucial in today's multi-device world. Discover the key principles and best practices for building responsive user interfaces.",
+    "date": "2024-01-05",
+    "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=60"
+  }
+]}

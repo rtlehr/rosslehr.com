@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Modern Website Design",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015",
+      "description": "Clean and modern website design focusing on user experience",
+      "link": "/gallery/modern-website"
+    },
+    {
+      "id": 2,
+      "title": "Mobile App Interface",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=2070",
+      "description": "Intuitive mobile application interface design",
+      "link": "/gallery/mobile-app"
+    },
+    {
+      "id": 3,
+      "title": "Brand Identity",
+      "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&q=80&w=2070",
+      "description": "Complete brand identity design system",
+      "link": "/gallery/brand-identity"
+    }
+  ]
+}

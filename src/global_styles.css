@@ -1,0 +1,87 @@
+/* Import Bootstrap CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+/* Global layout adjustments
+   Accounts for fixed header height and ensures proper content spacing */
+body {
+  padding-top: 56px;
+}
+
+/* Sidebar Configuration
+   Implements responsive behavior and proper positioning */
+.sidebar-container {
+  position: sticky;
+  top: 56px;
+  height: calc(100vh - 56px);
+  z-index: 100;
+  padding: 0;
+}
+
+.sidebar {
+  position: sticky;
+  top: 56px;
+  height: calc(100vh - 56px);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+/* Sidebar Navigation Styling
+   Enhances navigation links with hover effects and proper spacing */
+.sidebar .nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0.2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Card Component Styling
+   Implements modern design with subtle animations */
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+}
+
+/* Navigation Bar Styling
+   Adds subtle shadow for depth */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Footer Styling
+   Ensures proper positioning and borders */
+.footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  padding: 1rem 0;
+}
+
+/* Responsive Design Adjustments
+   Handles sidebar behavior on mobile devices */
+@media (max-width: 767.98px) {
+  .sidebar-container {
+    position: static;
+    height: auto;
+  }
+  
+  .sidebar {
+    position: static;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}

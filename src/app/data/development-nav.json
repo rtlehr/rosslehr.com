@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "contentId": 1,
+      "title": "Getting Started",
+      "link": "/development/start",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "contentId": 1,
+      "title": "Best Practices",
+      "link": "/development/practices",
+      "order": 2
+    }
+  ]
+}

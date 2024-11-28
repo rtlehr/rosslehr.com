@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "contentId": 1,
+      "title": "Latest Posts",
+      "link": "/blog/latest",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "contentId": 1,
+      "title": "Categories",
+      "link": "/blog/categories",
+      "order": 2
+    }
+  ]
+}

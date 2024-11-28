@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "contentId": 1,
+      "title": "Installation Guide",
+      "link": "/guide/installation",
+      "order": 1
+    },
+    {
+      "id": 2,
+      "contentId": 1,
+      "title": "Basic Concepts",
+      "link": "/guide/concepts",
+      "order": 2
+    },
+    {
+      "id": 3,
+      "contentId": 1,
+      "title": "First Application",
+      "link": "/guide/first-app",
+      "order": 3
+    },
+    {
+      "id": 4,
+      "contentId": 2,
+      "title": "Type System",
+      "link": "/typescript/types",
+      "order": 1
+    },
+    {
+      "id": 5,
+      "contentId": 2,
+      "title": "Interfaces",
+      "link": "/typescript/interfaces",
+      "order": 2
+    },
+    {
+      "id": 6,
+      "contentId": 3,
+      "title": "Media Queries",
+      "link": "/responsive/media-queries",
+      "order": 1
+    },
+    {
+      "id": 7,
+      "contentId": 3,
+      "title": "Flexbox Layout",
+      "link": "/responsive/flexbox",
+      "order": 2
+    }
+  ]
+}

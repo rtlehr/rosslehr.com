@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Understanding Modern Web Development",
+      "date": "2024-01-15",
+      "content": "<h2>Introduction to Modern Web Development</h2><p>Modern web development has evolved significantly over the past few years. With the advent of powerful frameworks and tools, building web applications has become more structured and efficient.</p><h2>Key Concepts</h2><p>Understanding the fundamentals of web development is crucial. Here are some key aspects to consider:</p><ul><li>Component-based architecture</li><li>State management</li><li>Responsive design</li></ul><blockquote>Remember: Good architecture is the foundation of maintainable applications.</blockquote>"
+    },
+    {
+      "id": 2,
+      "title": "Best Practices in Angular Development",
+      "date": "2024-01-20",
+      "content": "<h2>Angular Development Guidelines</h2><p>Following best practices in Angular development ensures maintainable and scalable applications. Let's explore some key principles that every Angular developer should follow.</p><h2>Code Organization</h2><p>Proper code organization is essential for maintaining large applications. Consider these guidelines:</p><ul><li>Feature modules</li><li>Lazy loading</li><li>Smart and presentational components</li></ul><blockquote>Tip: Always think about scalability when designing your application architecture.</blockquote>"
+    }
+  ]
+}

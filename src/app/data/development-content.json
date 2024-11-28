@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Angular Best Practices",
+      "content": "Discover the latest best practices for building scalable Angular applications.",
+      "date": "2024-01-20",
+      "image": "https://images.unsplash.com/photo-1593720219276-0b1eacd0aef4?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+      "id": 2,
+      "title": "TypeScript Tips",
+      "content": "Essential TypeScript tips and tricks for better type safety and development experience.",
+      "date": "2024-01-18",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+    }
+  ]
+}

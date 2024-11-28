@@ -1,0 +1,16 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Future of Web Development",
+      "date": "2024-01-25",
+      "content": "<h2>Introduction</h2><p>Web development is rapidly evolving with new technologies and frameworks.</p><h2>Key Trends</h2><ul><li>AI-powered development tools</li><li>WebAssembly adoption</li><li>Edge computing</li></ul><blockquote>The future of web development is exciting and full of possibilities.</blockquote>"
+    },
+    {
+      "id": 2,
+      "title": "Mastering Angular Development",
+      "date": "2024-01-22",
+      "content": "<h2>Getting Started</h2><p>Angular continues to evolve and improve with each release.</p><h2>Advanced Concepts</h2><ul><li>Dependency Injection</li><li>Change Detection</li><li>Performance Optimization</li></ul><blockquote>Angular provides a robust framework for building modern web applications.</blockquote>"
+    }
+  ]
+}

@@ -1,3 +1,6 @@
+// Import Bootstrap SCSS
+@import "../../../color-scheme.scss";
+
 /* Background styling for the modal */
 .modal {
     position: fixed; 
@@ -22,20 +25,20 @@
   
   .modal-content {
     border-radius: 10px;
-    background-color: white;
+    background-color: $thirdLight;
     resize: both; /* Enable resizing */
     overflow: auto; /* Allow content to overflow when resized */
   }
   
   .modal-header {
-    background-color: #007bff;
+    background-color: $fourthcolor;
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   
   .modal-footer {
-    background-color: #f1f1f1;
+    background-color: $fourthcolor;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }

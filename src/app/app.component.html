@@ -1,43 +1,41 @@
-<div class="d-flex flex-column min-vh-100">
+<div class="d-flex flex-column min-vh-100 mainBackground">
+
   <!-- Header -->
-  <header class="bg-primary text-white text-center py-3"> 
-    <div class="container mt-3">
-      <div class="row align-items-center text-center text-md-start">
-        <div class="col-lg-2 col-md-3 col-12 mb-2 mb-md-0"> 
-          <app-display-logo [src]="'myLogo.png'" [width]="'100px'" [height]="'100px'"/> 
-        </div>
-        <div class="col-lg-9 col-md-7 col-12">
-          <h1 class="header-title">My Angular CMS</h1>
-        </div>
-        <div class="col-lg-1 col-md-2 col-12">
-          <app-display-contact-info [socialOnly]="true"/> 
-        </div>
-      </div>
+  <header class="d-flex justify-content-between align-items-center p-3">
+    <div>
+      <app-display-logo [src]="'myLogo.png'" [width]="'75px'" [height]="'75px'"/> 
     </div>
-  </header>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary text-white">
-    <div class="container-fluid">
-      <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavbar" aria-controls="headerNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-left" id="headerNavbar">
-        <app-header-menu/>
-      </div>
+    <div>
+        <button class="btn btn-outline-secondary">
+          <!-- Navigation -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary text-white">
+            <div class="container-fluid">
+              <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavbar" aria-controls="headerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-left" id="headerNavbar">
+                <app-header-menu/>
+              </div>
+            </div>
+          </nav>
+        </button>
     </div>
-  </nav>
+    <div>
+      <app-display-contact-info [socialOnly]="true"/>
+  </div>
+</header>
 
-  <!-- Main Content -->
-  <div class="content-wrapper flex-grow-1 bg-light p-3">
+<!-- Main Content Section -->
+<section class="container my-4">
+  <div class="row mt-3 contentWindow">
     <router-outlet></router-outlet>    
 
     <app-modal-window/>
-    
   </div>
+</section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
+  <footer class="text-white text-center py-3">
     <p>&copy; 2024 My Angular App. All rights reserved.</p>
     <app-display-contact-info [socialOnly]="false"/>
   </footer>

@@ -1,11 +1,19 @@
 // Override Bootstrap Variables
-$primary: purple; // Change primary color
+$primary: #BF8821; // Change primary color
 $primaryLight: lighten($primary, 25%); // Change primary light color
 $primaryComplament: complement($primary); // Change primary complament color
 
-$secondary: #33c4ff; // Change secondary color
+$secondary: #F2D22E; // Change secondary color
 $secondaryLight: lighten($secondary, 25%); // Change secondary light color
 $secondaryComplament: complement($secondary); // Change secondary complament color
+
+$thirdcolor: #D9AA1E; // Change secondary color
+$thirdLight: lighten($thirdcolor, 25%); // Change secondary light color
+$thirdComplament: complement($thirdcolor); // Change secondary complament color
+
+$fourthcolor: #8C6620; // Change secondary color
+$fourthLight: lighten($fourthcolor, 25%); // Change secondary light color
+$fourthComplament: complement($fourthcolor); // Change secondary complament color
 
 //Font Colors
 $bodyTextColor: #696969; // Change body text color

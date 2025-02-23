@@ -1,3 +1,11 @@
+// Import Bootstrap SCSS
+@import "../color-scheme.scss";
+
+header, footer{
+  background-color: $fourthcolor;
+  color: white;
+}
+
 .header-title {
   font-size: 2rem;
   @media (max-width: 768px) {
@@ -16,4 +24,16 @@
   @media (max-width: 768px) {
     padding: 10px;
   }
+}
+
+.mainBackground {
+  background-color: $primary;
+}
+
+.contentWindow
+{
+  background-color: $thirdcolor;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
 }

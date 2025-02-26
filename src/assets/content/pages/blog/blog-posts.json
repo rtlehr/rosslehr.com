@@ -34,5 +34,17 @@
       "tags": ["Tag Two", "Tag Three"],
       "imageUrl": "./assets/images/flag.jpeg", 
       "blogText": [{"contentType": "contentPage", "divId": "contentBlockThree", "contentFile": "content/pages/blog/post-three/content.html"}]
+    },
+    {
+      "id": 1,
+      "title": "Post Four",
+      "url" : "post-four",
+      "isFeatured": true,
+      "author": "Jane Doe",
+      "date": "2025-01-01",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam nisl, blandit at sodales nec, elementum bibendum libero. Nunc finibus ",
+      "tags": ["Tag One", "Tag Three"],
+      "imageUrl": "./assets/images/motorcycle.png", 
+      "blogText": [{"contentType": "contentPage", "divId": "contentBlockOne", "contentFile": "content/pages/blog/post-four/content.html"}]
     }
   ]

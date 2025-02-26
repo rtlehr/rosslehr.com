@@ -15,9 +15,9 @@
     </button>
   </div>
 
-  <div class="row"> 
+  <div class="row" style="margin-left: auto; margin-right: auto;"> 
     @for (post of blogPosts; track post.id) {
-      <div class="col-md-6 col-lg-4 mb-4">
+      <div class="col-md-6 col-lg-4 mb-4 cardframe">
 
         <div #blogItem class="card blog-card h-100 shadow pop-in" 
         [class.visible]="isVisible"

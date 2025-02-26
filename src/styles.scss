@@ -1,3 +1,5 @@
+/* this scss file is for CSS that is site wide and needs to be availible to multiple pages*/
+
 // Import Bootstrap SCSS
 @import "./color-scheme.scss";
 
@@ -11,6 +13,8 @@ h2 {
   color: $h1TextColor !important;
 }
 
+/* used for DIVs that "pop in" and out */
+
 .pop-in {
   opacity: 0;
   transform: scale(0);
@@ -20,7 +24,17 @@ h2 {
   opacity: 1;
   transform: scale(1);
 }
-  
+
+.row > *
+{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#homeContentOne
+{
+  background-color: pink;
+}
 // Import Bootstrap SCSS
 @import "bootstrap/scss/bootstrap";
 

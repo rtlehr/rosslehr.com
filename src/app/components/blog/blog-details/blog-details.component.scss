@@ -1,38 +1,43 @@
 @import "../../../../color-scheme.scss";
 
+main
+{
+  padding: 25px 0 25px 0;
+}
 .container {
-    max-width: 800px;
+    /*max-width: 800px; */
   }
   
-  .card {
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .card-img-top {
-    max-height: 400px;
-    object-fit: cover;
-  }
-  
-  .badge {
-    font-size: 0.85rem;
-    padding: 0.5em 0.75em;
-  }
-  
-  .text-muted {
-    font-size: 0.9rem;
-  }
-  
-  .card-title {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-  
-  .card-text {
-    font-size: 1.15rem;
-    line-height: 1.6;
-  }
-  
+.card {
+  /*border-radius: 5px;*/
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.5em 0.75em;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
 
 /* Sidebar container */
 .sidebar {
@@ -57,7 +62,9 @@
   color: $bodyTextColor; // Bootstrap body text color
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+ /* border-radius: 0.25rem;*/
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
   text-decoration: none;
   display: block;
   transition: background-color 0.2s, color 0.2s;

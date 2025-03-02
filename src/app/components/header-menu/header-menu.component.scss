@@ -1,5 +1,11 @@
 @import "../../../color-scheme.scss";
 
+header > button
+{
+  background-color: $color4 !important;
+  color: white;
+}
+
  /* HEADER MENU */
 
   /* Main navigation styles */
@@ -24,7 +30,7 @@
     }
   
     &.active {
-      color: $complement3; // Bootstrap secondary color
+      color: $mono-light; // Bootstrap secondary color
       font-weight: bold;
     }
   }
@@ -45,7 +51,7 @@
   /* Dropdown menu container */
   .navbar-nav .nav-item.dropdown .dropdown-menu {
     background-color: $gray-500; // Bootstrap light color
-    border: 1px solid $complement3; // Bootstrap secondary color
+    /*border: 1px solid $complement3;*/ // Bootstrap secondary color
     border-radius: 0.25rem;
   
     .dropdown-item {

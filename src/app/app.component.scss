@@ -1,8 +1,16 @@
+// Import Bootstrap SCSS
+@import "../color-scheme.scss";
+
+header, footer{
+  background-color: $color4;
+  color: white;
+}
+
 .header-title {
   font-size: 2rem;
   @media (max-width: 768px) {
     font-size: 1.5rem;
-    text-align: center; 
+    text-align: center;
   }
 }
 
@@ -18,3 +26,14 @@
   }
 }
 
+.mainBackground {
+  background-color: $color3;
+}
+
+.contentWindow
+{
+  background-color: $color2;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+@import "../color-scheme.scss";
+
+
+.nav-background
+{
+  background-color: $mono-light;
+}
+// Global Styles
+
+// Header (Scrolls Out)
+#pageHeader {
+  transition: transform 0.3s ease-out;
+}
+
+// Navbar (Initially in Normal Flow)
+#stickyNavbar {
+  position: relative;
+  transition: top 0.3s ease-in-out;
+  z-index: 1020;
+}
+
+// Placeholder (To Keep Layout Consistent)
+#navbarPlaceholder {
+  height: 60px; // Adjust this to match the navbar height
+  display: none; // It will be shown dynamically via JS
+}
+
+// When Navbar Becomes Sticky
+.navbar-sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  animation: slideDown 0.3s ease-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+// Animation for Navbar Appearing
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Post One",
+      "url" : "post-one",
+      "isFeatured": false,
+      "author": "Jane Doe",
+      "date": "2025-01-01",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam nisl, blandit at sodales nec, elementum bibendum libero. Nunc finibus ",
+      "tags": ["Tag One", "Tag Two", "Tag Three"],
+      "imageUrl": "./assets/images/motorcycle.png", 
+      "blogText": [{"contentType": "contentPage", "divId": "contentBlockOne", "contentFile": "content/pages/blog/post-one/content.html"}]
+    },
+    {
+      "id": 2,
+      "title": "Post Two",
+      "url" : "post-two",
+      "isFeatured": true,
+      "author": "John Doe",
+      "date": "2025-01-01",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam nisl, blandit at sodales nec, elementum bibendum libero. Nunc finibus ",
+      "tags": ["Tag One", "Tag Two"],
+      "imageUrl": "./assets/images/airplane.jpeg", 
+      "blogText": [{"contentType": "contentPage", "permission": "admin", "divId": "contentBlockTwo", "contentFile": "content/pages/blog/post-two/content.html"}]
+    },
+    {
+      "id": 3,
+      "title": "Post Three",
+      "url" : "post-three",
+      "isFeatured": false,
+      "author": "Jane Doe",
+      "date": "2025-01-01",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam nisl, blandit at sodales nec, elementum bibendum libero. Nunc finibus ",
+      "tags": ["Tag Two", "Tag Three"],
+      "imageUrl": "./assets/images/flag.jpeg", 
+      "blogText": [{"contentType": "contentPage", "divId": "contentBlockThree", "contentFile": "content/pages/blog/post-three/content.html"}]
+    }
+  ]

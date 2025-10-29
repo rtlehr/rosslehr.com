@@ -1,0 +1,70 @@
+<h2>NewsComponent Instructions</h2>
+
+<p>
+  The NewsComponent is designed to fetch and display a list of news articles using Angular's HttpClient. It loads the news data from a JSON file specified by the <code>fileToLoad</code> input and renders each news item with a thumbnail image, title, publication date, an excerpt of the content, and a "Read More" button.
+</p>
+
+<h3>Component Inputs</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Input Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>fileToLoad</code></td>
+      <td>String</td>
+      <td>
+        The path to the JSON file containing the news data (e.g., 'news-data.json'). The file is fetched from the assets folder.
+      </td>
+    </tr>
+    <tr>
+      <td><code>divId</code></td>
+      <td>String</td>
+      <td>
+        An identifier for the main news list container, which can be used for custom styling or DOM manipulation.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>JSON Data Structure</h3>
+<p>
+  The component expects the JSON file to be an array of news objects with the following structure:
+</p>
+<pre><code class="json">
+[
+    {
+      "id": "1",
+      "title": "Breaking News: Angular Rocks!",
+      "image": "https://via.placeholder.com/150",
+      "date": "December 11, 2024",
+      "content": "Angular has released its latest version with amazing new features and improvements. Angular has released its latest version with amazing new features and improvements..."
+    },
+    {
+      "id": "2",
+      "title": "Tech Trends for 2024",
+      "image": "https://via.placeholder.com/150",
+      "date": "December 5, 2024",
+      "content": "Explore the top tech trends of the year, including AI, blockchain, and more."
+    },
+    {
+      "id": "3",
+      "title": "Community Spotlight: Open Source Contributions",
+      "image": "https://via.placeholder.com/150",
+      "date": "November 30, 2024",
+      "content": "Highlighting the most significant contributions from the open-source community this year."
+    }
+]
+</code></pre>
+<p>
+  Each news object includes:
+  <code>id</code> – a unique identifier,
+  <code>title</code> – the headline,
+  <code>image</code> – the URL for the thumbnail image,
+  <code>date</code> – the publication date, and
+  <code>content</code> – an excerpt of the article.
+</p>

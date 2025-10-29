@@ -1,0 +1,48 @@
+<h2>MainContentComponent Instructions</h2>
+
+<p>
+  The MainContentComponent is designed to load an external HTML file from the assets folder and render its content directly into the browser window. It uses Angular's HttpClient to fetch the HTML file and sanitizes the content for safe rendering. After the content is loaded, the component observes the rendered DOM to attach click events, highlight code blocks, and detect modal triggers for enhanced interactivity.
+</p>
+
+<h3>Component Inputs</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Input Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>fileToLoad</code></td>
+      <td>String</td>
+      <td>
+        The path to the HTML file to load (e.g., 'content/main-content.html'). This file should be placed in the assets folder.
+      </td>
+    </tr>
+    <tr>
+      <td><code>divId</code></td>
+      <td>String</td>
+      <td>
+        An identifier for the main container that will display the loaded HTML content. Useful for styling or DOM manipulation.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>HTML File Structure</h3>
+<p>
+  Unlike components that load JSON data, the MainContentComponent expects an HTML file. The HTML file should contain valid markup and can include elements such as headings, paragraphs, code blocks, or custom modal triggers. For example:
+</p>
+<pre><code class="html">
+&lt;h1&gt;Welcome to Our Site&lt;/h1&gt;
+&lt;p&gt;This content is loaded from an external HTML file.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-typescript"&gt;
+  // Your code snippet here
+&lt;/code&gt;&lt;/pre&gt;
+&lt;trigger-modal data-content='{"title": "Modal Title", "body": "Modal Body Content"}'&gt;&lt;/trigger-modal&gt;
+</code></pre>
+<p>
+  The component processes the loaded HTML to attach dynamic behaviors such as code highlighting and modal triggers.
+</p>

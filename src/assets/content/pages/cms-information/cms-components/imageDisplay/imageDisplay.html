@@ -1,0 +1,68 @@
+<h2>ImageDisplayComponent Instructions</h2>
+
+<p>
+  The ImageDisplayComponent is designed to display a gallery of images loaded from a JSON data file. It renders clickable thumbnails for public images and a placeholder for private images. When a public image is clicked, the component opens a modal window displaying a larger version of the image along with its title and description.
+</p>
+
+<h3>Component Inputs</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Input Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>fileToLoad</code></td>
+      <td>String</td>
+      <td>
+        The path to the JSON file containing image data (e.g., 'images-data.json'). The file is loaded from the assets folder.
+      </td>
+    </tr>
+    <tr>
+      <td><code>divId</code></td>
+      <td>String</td>
+      <td>
+        An identifier assigned to the main gallery container for targeting or styling purposes.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>JSON Data Structure</h3>
+<p>
+  The component expects the JSON file to be an array of image objects with the following structure:
+</p>
+<pre><code class="json">
+[
+    {
+        "id": "1",
+        "src": "./assets/images/flag.jpeg",
+        "largeSrc": "./assets/images/flag.jpeg",
+        "title": "Image 1",
+        "description": "This is the description for Image 1.",
+        "private": "false" 
+    },
+    {
+        "id": "2",
+        "src": "./assets/images/airplane.jpeg",
+        "largeSrc": "./assets/images/airplane.jpeg",
+        "title": "Image 1",
+        "description": "This is the description for Image 1.",
+        "private": "true"
+    },
+    {
+        "id": "3",
+        "src": "./assets/images/motorcycle.png",
+        "largeSrc": "./assets/images/motorcycle.png",
+        "title": "Image 1",
+        "description": "This is the description for Image 1.",
+        "private": "false"
+    }
+]
+</code></pre>
+<p>
+  In this structure, the <code>src</code> property holds the path for the thumbnail image, while the <code>largeSrc</code> is used in the modal view. The <code>private</code> property determines whether the actual image or a placeholder image should be displayed.
+</p>

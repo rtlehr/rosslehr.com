@@ -1,0 +1,62 @@
+<h2>ImageGalleryComponent Instructions</h2>
+
+<p>
+  The ImageGalleryComponent displays a gallery of images in a responsive, card-based layout using Bootstrap classes. Each image card contains an image, title, short description, and a "Learn More" button linking to an external resource.
+</p>
+
+<h3>Component Inputs</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Input Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>fileToLoad</code></td>
+      <td>String</td>
+      <td>
+        The path to the JSON file containing image data (e.g., 'image-data.json'). The file is loaded from the assets folder.
+      </td>
+    </tr>
+    <tr>
+      <td><code>divId</code></td>
+      <td>String</td>
+      <td>
+        An identifier assigned to the main container of the gallery, useful for styling or DOM targeting.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>JSON Data Structure</h3>
+<p>
+  The component expects the JSON file to be an array of image objects with the following structure:
+</p>
+<pre><code class="json">
+[
+    {
+      "src": "./assets/images/motorcycle.png",
+      "title": "Image 1",
+      "description": "This is a short description for Image 1.",
+      "href": "https://example.com/image1"
+    },
+    {
+      "src": "./assets/images/snowtruck.jpg",
+      "title": "Image 1",
+      "description": "This is a short description for Image 1.",
+      "href": "https://example.com/image1"
+    },
+    {
+      "src": "./assets/images/flag.jpeg",
+      "title": "Image 1",
+      "description": "This is a short description for Image 1.",
+      "href": "https://example.com/image1"
+    }
+]
+</code></pre>
+<p>
+  In this structure, the <code>src</code> property specifies the path of the image file, <code>title</code> and <code>description</code> provide the textual content for the card, and <code>href</code> defines the URL for the "Learn More" link.
+</p>

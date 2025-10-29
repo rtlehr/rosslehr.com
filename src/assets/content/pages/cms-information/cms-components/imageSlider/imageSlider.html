@@ -1,0 +1,79 @@
+<h2>ImageSliderComponent Instructions</h2>
+
+<p>
+  The ImageSliderComponent displays a responsive image slider that automatically cycles through images. The slider's settings and images are loaded from a JSON configuration file. It features navigation buttons for manual control and smooth transitions between slides.
+</p>
+
+<h3>Component Inputs</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Input Name</th>
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>fileToLoad</code></td>
+      <td>String</td>
+      <td>
+        The path to the JSON configuration file containing slider settings and images (e.g., 'slider-data.json').
+      </td>
+    </tr>
+    <tr>
+      <td><code>sliderWidth</code></td>
+      <td>String</td>
+      <td>
+        The CSS width for the slider (e.g., '800px' or '100%'). This value can be overridden by the JSON configuration.
+      </td>
+    </tr>
+    <tr>
+      <td><code>sliderHeight</code></td>
+      <td>String</td>
+      <td>
+        The CSS height for the slider (e.g., '400px'). This value can be overridden by the JSON configuration.
+      </td>
+    </tr>
+    <tr>
+      <td><code>imagesCount</code></td>
+      <td>Number</td>
+      <td>
+        The total number of images loaded into the slider. This value is set based on the JSON file.
+      </td>
+    </tr>
+    <tr>
+      <td><code>divId</code></td>
+      <td>String</td>
+      <td>
+        An identifier for the main slider container, useful for styling or DOM manipulation.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>JSON Data Structure</h3>
+<p>
+  The component expects the JSON configuration file to have the following structure:
+</p>
+<pre><code class="json">
+{
+  "width": "800px",
+  "height": "400px",
+  "slideInterval": 3000,
+  "images": [
+    {
+      "src": "./assets/images/flag.jpeg",
+      "alt": "Image 1"
+    },
+    {
+      "src": "./assets/images/airplane.jpeg",
+      "alt": "Image 2"
+    },
+    {
+      "src": "./assets/images/motorcycle.png",
+      "alt": "Image 3"
+    }
+  ]
+}
+</code></pre>

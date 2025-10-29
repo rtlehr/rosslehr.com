@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "src": "./assets/images/portImages/arch.jpg",
+        "largeSrc": "./assets/images/portImages/arch.jpg",
+        "title": "Architectural Rendering",
+        "description": "",
+        "private": "false" 
+    },
+    {
+        "id": "2",
+        "src": "./assets/images/portImages/courseWare.png",
+        "largeSrc": "./assets/images/portImages/courseWare.png",
+        "title": "Courseware Gurus logo",
+        "description": "",
+        "private": "false"
+    },
+    {
+        "id": "3",
+        "src": "./assets/images/portImages/madMinds.jpg",
+        "largeSrc": "./assets/images/portImages/madMinds.jpg",
+        "title": "Mad Minds Creations logo",
+        "description": "",
+        "private": "false"
+    },
+    {
+        "id": "1",
+        "src": "./assets/images/portImages/beforeTheApple-main.png",
+        "largeSrc": "./assets/images/portImages/beforeTheApple-main.png",
+        "title": "Before The Apple logo",
+        "description": "",
+        "private": "false" 
+    },
+    {
+        "id": "2",
+        "src": "./assets/images/portImages/pixelInfluence.jpg",
+        "largeSrc": "./assets/images/portImages/pixelInfluence.jpg",
+        "title": "Pixel Influence logo",
+        "description": "",
+        "private": "false"
+    },
+    {
+        "id": "3",
+        "src": "./assets/images/portImages/swoops.jpg",
+        "largeSrc": "./assets/images/portImages/swoops.jpg",
+        "title": "Design",
+        "description": "",
+        "private": "false"
+    }
+  ]

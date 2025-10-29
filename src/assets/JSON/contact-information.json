@@ -2,25 +2,20 @@
     "physical": [
         {
             "name": "Phone Number",
-            "text": "555-555-5555",
+            "text": "703-401-5209",
             "icon": "phone"
         },
         {
             "name": "E-mail",
-            "text": "blah@blahblah.com",
+            "text": "ross.lehr@gmail.com",
             "icon": "email"
         }
     ],
     "social": [
         {
-            "name": "Facebook",
-            "link": "http://www.facebook.com",
-            "icon": "bi bi-facebook"
-        },
-        {
-            "name": "Twitter",
-            "link": "http://www.twitter.com",
-            "icon": "bi bi-twitter-x"
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/ross-lehr-9994243/",
+            "icon": "bi bi-linkedin"
         }
     ]
 }

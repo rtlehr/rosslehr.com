@@ -1,32 +1,25 @@
 /* Modern Gallery Layout */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-  padding: 20px;
-  justify-items: center;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
+  gap: 12px; /* spacing between thumbnails */
 }
 
-/* Thumbnail container */
 .thumbnail {
-  position: relative;
-  width: 100%;
-  max-width: 250px;
-  height: 250px; // Fixed square height
-  border-radius: 10px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f0f0f0; // Fallback background color
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  /* optional styling */
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 8px;
+  text-align: center;
 
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover; // Ensures full coverage inside the square
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+    max-height: 200px;         /* optional */
+    object-fit: contain;       /* see whole image */
+    display: block;
   }
 
   &:hover {

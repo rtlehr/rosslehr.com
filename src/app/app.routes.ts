@@ -19,8 +19,11 @@ export const routes: Routes = [
     data: {
       menu: true,
       pageContent: [
-        { contentType: 'contentPage', divId: 'homeContentOne', contentFile: 'content/pages/home/home-content-one.html' },
-        { contentType: 'contentPage', divId: 'homeContentTwo', contentFile: 'content/pages/home/home-content-two.html' }
+        { contentType: 'contentPage', divId: 'homeContentOne', contentFile: 'content/pages/home/intro.html' },
+        { contentType: 'contentPage', divId: 'homeContentTwo', contentFile: 'content/pages/home/wbt.html' },
+        { "contentType": "imageGallery", "contentFile": "JSON/page-image-gallery-images.json"},
+        { contentType: 'contentPage', divId: 'homeContentTwo', contentFile: 'content/pages/home/port.html' },
+        {"contentType": "imageDisplay", "divId": "contentBlockTwo", "contentFile": "JSON/portImages.json"}
       ]
     }
   },
@@ -87,7 +90,7 @@ export const routes: Routes = [
     component: BlogListComponent,
     title: 'Blog',
     data: {
-      menu: true,
+      menu: false,
       pageContent: [
         { contentType: 'blogList', divId: 'blogList', contentFile: 'assets/content/pages/blog/content.json' }
       ]
@@ -100,28 +103,28 @@ export const routes: Routes = [
     path: 'login',
     component: LoginComponent,
     title: 'Login',
-    data: { menu: true, pageContent: [] }
+    data: { menu: false, pageContent: [] }
   },
 
   {
     path: 'edit-html',
     component: HtmlEditorComponent,
     title: 'Edit HTML',
-    data: { menu: true, pageContent: [] }
+    data: { menu: false, pageContent: [] }
   },
 
   {
     path: 'prompt-builder',
     component: PromptBuilderComponent,
     title: 'Prompt Builder',
-    data: { menu: true, pageContent: [] }
+    data: { menu: false, pageContent: [] }
   },
 
   {
     path: 'question-flow',
     component: QuestionFlowComponent,
     title: 'Question Flow',
-    data: { menu: true, pageContent: [] }
+    data: { menu: false, pageContent: [] }
   },
 
   { path: '**', component: PageGeneratorComponent }
